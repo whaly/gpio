@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/davecheney/gpio"
+	"github.com/whaly/rpigpio"
 	"os"
 	"os/signal"
 	"time"
