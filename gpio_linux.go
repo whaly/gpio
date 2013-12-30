@@ -111,7 +111,7 @@ func OpenPin(n int, mode Mode) (Pin, error) {
 	}
 
 	var value *os.File
-	for i := 0; i < 5; i++ {
+	for i := 0; i < 20; i++ {
 		time.Sleep(200 * time.Millisecond)
 		value, err = os.OpenFile(filepath.Join(pinBase, "value"), os.O_RDWR, 0600)
 		if err == nil {
