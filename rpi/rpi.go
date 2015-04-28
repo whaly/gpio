@@ -85,7 +85,7 @@ const (
 
 	GPIO_P1_07 = 4
 	GPIO_P1_12 = 18
-	GPIO_P1_13 = 21
+	GPIO_P1_13 = 27
 	GPIO_P1_15 = 22
 	GPIO_P1_18 = 24
 	GPIO_P1_22 = 25
